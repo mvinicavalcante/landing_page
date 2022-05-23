@@ -1,0 +1,12 @@
+.footer{
+    padding: 20px 0px;
+    border-top: solid 1px #6157DD;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+
+.list-footer{
+    display: block;
+    list-style: none;
+}

@@ -1,12 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
+import DefaultTemplate from './templates/DefaultTemplate';
 
 function App() {
   return (
-    <div>
-      <Header />
-    </div>
+    <>
+      <DefaultTemplate>
+        aaaa
+      </DefaultTemplate>
+    </>
   );
 }
 

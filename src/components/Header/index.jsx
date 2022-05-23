@@ -16,7 +16,7 @@ const Header = () => {
                 />
             </div>
             <div className="col">
-                <ul>
+                <ul className='header-list'>
                     <li>Ação</li>
                     <li>Ação</li>
                     <li>Ação</li>

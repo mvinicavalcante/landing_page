@@ -5,10 +5,11 @@
     align-items: center;
     justify-content: space-around;
     padding: 0px 40px;
-    font-weight: 900;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
-ul{
+.header-list{
     display: flex;
     padding: 0px 10px;
     list-style: none;
@@ -19,9 +20,14 @@ ul{
 }
 
 li{
-    margin-left: 100px;
+    margin-left: 90px;
     cursor: pointer;
     font-size: 20px;
+}
+
+li:hover{
+    color: gray;
+    transition: .5s;
 }
 
 button{
