@@ -36,6 +36,7 @@ button{
     background-color: transparent;
     flex-direction: column;
     float: right;
+    margin-top: 5px;
 }
 
 .btnMenuMobile{
@@ -56,11 +57,18 @@ button{
 
     .header{
         padding: 0px 5px;
-    }
-    ul{
-        display: none;
+        overflow-x: hidden;
     }
 
+    .logo{
+        height: 50px;
+        width: 50px
+    }
+
+    .header-list{
+        display: none;
+    }
+    
     button{
         display: flex;
     }
