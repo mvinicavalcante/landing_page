@@ -20,7 +20,7 @@ function App() {
             <Route path='/about-me' element={<AboutMe />}/>
             <Route path='/contact' element={<Contact />}/>
           </Routes>
-        </Router>
+        </Router> 
       </DefaultTemplate>
     </>
   );
